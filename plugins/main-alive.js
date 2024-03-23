@@ -7,7 +7,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     var vn = "./Assets/ALIVE.mp3"
     let url = "https://github.com/Xcelsama"
     let murl = "https://YouTube.com"
-    let img = "https://telegra.ph/file/f2fa9732e0e26bbb0bfb0.jpg"
+    let img = "https://telegra.ph/file/fe44ad85ba70d8d5c2889.mp4"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     let doc = {
         audio: {
@@ -24,7 +24,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
           title: "THE STAR-V2 IS ALIVE 🌟",
           body: "STAR-MD",
           thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK',
+          sourceUrl: 'https://chat.whatsapp.com/E0b13EB30fCKhurY8hL8Pc',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
